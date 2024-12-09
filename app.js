@@ -2,8 +2,8 @@ require("dotenv").config();
 
 const express = require("express");
 const expressLayout = require("express-ejs-layouts");
-const app = express();
 
+const app = express();
 const PORT = 5005 || process.env.PORT;
 
 app.use(express.static("public"));
