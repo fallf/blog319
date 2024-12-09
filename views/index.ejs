@@ -14,24 +14,16 @@
 <section class="articles">
   <h2 class="articles__heading">Latest Entries</h2>
   <ul class="articles-ul">
+    <% data.forEach(post => { %>
+
     <li>
       <a href="#">
-        <span>Love Lost</span>
-        <span class="article-list__date">Date</span>
+        <span><%= post.title %></span>
+        <span class="article-list__date"><%= post.createdAt %></span>
       </a>
     </li>
-    <li>
-      <a href="#">
-        <span>Love Lost</span>
-        <span class="article-list__date">Date</span>
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <span>Love Lost</span>
-        <span class="article-list__date">Date</span>
-      </a>
-    </li>
+
+    <% }) %>
   </ul>
 
   <a href="#" class="pagination">&lt; View Older Reviews</a>
