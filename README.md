@@ -5,9 +5,9 @@ Welcome to **BookyLooky**, a Node.js-powered blog application where users can ex
 ## Table of Contents
 
 - [About the Project](#about-the-project)
+- [Run links](#run-links)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Data Models](#data-models)
 - [Setup Instructions](#setup-instructions)
 - [Future Enhancements](#future-enhancements)
 - [License](#license)
@@ -18,6 +18,15 @@ Welcome to **BookyLooky**, a Node.js-powered blog application where users can ex
 
 BookyLooky allows users to browse Book review, search for content,
 An admin panel provides control for managing posts and users securely.
+
+---
+
+## Run links
+
+- **MainBlog** : http://localhost:5005/
+- **UserPanel**: http://localhost:5005/admin
+- **About**:http://localhost:5005/about
+- **Contact**:http://localhost:5005/contact
 
 ---
 
@@ -41,8 +50,6 @@ An admin panel provides control for managing posts and users securely.
 - **Middleware**: connect-mongo, express-session, cookie-parser
 
 ---
-
-## Data Models
 
 ### 1. Post Model
 
